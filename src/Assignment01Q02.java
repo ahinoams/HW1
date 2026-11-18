@@ -4,7 +4,13 @@ public class Assignment01Q02 {
         double approxPi = 0;
 
         /////////////////////////////////////////////
-        // TODO: Fill in the Pi approxiamtion here
+        int n = Integer.parseInt(args[0]);
+        for (int i = 1 ; i <= n; i++){
+            approxPi += 4*Math.pow(-1, i+1)*1/(2*i-1);
+            
+
+
+        } 
         /////////////////////////////////////////////
         /// ...
         
